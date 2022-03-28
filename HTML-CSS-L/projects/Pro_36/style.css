@@ -1,0 +1,48 @@
+/* p{
+    background-color: red;
+} */
+
+div{
+    text-align: center;
+}
+
+p.user {
+    margin:80px 10px;
+    font-size: 75px;
+    text-align:center;
+    display: inline-block;
+    color: #fffdfe;
+    background-color: #c12552;
+    width: 450px;
+    height: 337.5px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 2px 4px #9b9b9b;
+}
+
+p.search {
+    margin:80px 10px;
+    font-size: 75px;
+    text-align:center;
+    display: inline-block;
+    color: #fffdfe;
+    background-color: #39a638;
+    width: 450px;
+    height: 337.5px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 2px 4px #9b9b9b;
+    
+}
+
+p.map {
+    margin:80px 10px;
+    font-size: 75px;
+    text-align:center;
+    display: inline-block;
+    color: #fffdfe;
+    background-color: #2b7a87;
+    width: 450px;
+    height: 337.5px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 2px 4px #9b9b9b;
+
+}

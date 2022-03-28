@@ -1,0 +1,11 @@
+@font-face{
+    font-family: niconne;
+    src:url('my_fonts/Niconne-Regular.woff') format('woff');
+    src: url('Niconne.eot') format('eot');
+    src: url('Niconne-Regular.ttf') format('ttf');
+}
+
+p{
+    font-size: 40px;
+    font-family: niconne;
+}

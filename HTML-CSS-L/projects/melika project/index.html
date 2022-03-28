@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="survay.png"> 
+    
+</head>
+<body>
+    <div class="forheader">
+        <p class="titlepart">   SURVEY FORM  </p>
+    </div>
+
+    <div class="forsurvay">
+        <p class="firstline">LET US KNOW HOW WE CAN IMPROVE FREECODECAMP</p>
+        <form action="#" autocomplete="off">
+            <label for="name">Name : </label>
+            <input id="name" type="text" placeholder="Enter your name" class="box" >
+            <br><br>
+            <label for="Email">Email :&nbsp </label>
+            <input id="Email" type="email" placeholder="Example@gmail.com" class="box" >
+            <br><br>
+            <label for="age">Age : &nbsp  &nbsp </label>
+            <input id="age" type="number" placeholder="Age" class="box" >
+            <br><br><br>
+            <label for="role" class="center">Which option best describes your current role?</label><br>
+            <select id="role" class="box">
+                <option>student</option>
+                <option>bechalor's</option>
+                <option>master's</option>
+                <option>PhD</option>
+                <option selected>none</option>
+            </select>
+            <br><br>
+            <label class="center">How likely is that you would recommend freecodecamp to a friend?</label>
+            
+            <input id="rinput1" type="radio" " class="radio" >
+            <label for="rinput1" class="radiolabel">Definitley</label>
+            <br>
+            
+            <input id="rinput2" type="radio"  class="radio">
+            <label for="rinput2" class="radiolabel">Maybe</label>
+            <br>
+            
+            <input id="rinput3" type="radio"  class="radio">
+            <label for="rinput3" class="radiolabel">Not Sure</label>
+            <br><br>
+
+            <label  class="center">Things that should be improved in the future. (chech all that apply)</label>
+            <input id="chkbx1" type="checkbox" " class="radio" >
+            <label for="chkbx1" class="radiolabel">Front-end projects</label>
+            <br>
+            
+            <input id="chkbx2" type="checkbox"  class="radio">
+            <label for="chkbx2" class="radiolabel">Back-end projects</label>
+            <br>
+            
+            <input id="chkbx3" type="checkbox"  class="radio">
+            <label for="chkbx3" class="radiolabel">Desktop app projects</label>
+            <br>
+
+            <input id="chkbx4" type="checkbox"  class="radio">
+            <label for="chkbx4" class="radiolabel">Mobile app projects</label>
+            <br><br>
+            
+            <input type="submit" class="submit">
+
+        </form>
+    
+    </div>
+    
+</body>
+</html>

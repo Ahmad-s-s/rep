@@ -1,0 +1,35 @@
+.location {
+    border-radius: 15px;
+    height: 20vw;
+    width: 30vw;
+    background-color: rgb(9, 65, 75);
+    display: inline-block;
+    margin: 1vw;
+    box-shadow: 8px 8px 3px rgb(209, 221, 228);
+}
+.person {
+    border-radius: 15px;
+    height: 20vw;
+    width: 30vw;
+    background-color: rgb(233, 18, 47);
+    display: inline-block;
+    margin: 1vw;
+    box-shadow: 8px 8px 3px rgb(209, 221, 228);
+
+}
+.search {
+    border-radius: 15px;
+    height: 20vw;
+    width: 30vw;
+    background-color: rgb(46, 172, 41);
+    display: inline-block;
+    margin: 1vw;
+    box-shadow: 8px 8px 3px rgb(209, 221, 228);
+}
+
+.locimg{
+    display: inline-block;
+    height: 9vw;
+    width: 9vw;
+    margin: 5vw 10.5vw;
+}
